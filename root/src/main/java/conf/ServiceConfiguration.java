@@ -68,7 +68,7 @@ public class ServiceConfiguration {
         entityManager.setPersistenceUnitName("defaultPU");
         entityManager.setDataSource(dataSource());
         entityManager.setJpaProperties(getProperties());
-        entityManager.setPackagesToScan("wizard");
+        entityManager.setPackagesToScan("wizard.entity");
 
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         entityManager.setJpaVendorAdapter(vendorAdapter);
