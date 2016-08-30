@@ -10,5 +10,6 @@ libraryDependencies ++= Seq(
   "org.springframework" % "spring-expression" % "4.2.1.RELEASE",
   "org.springframework" % "spring-test" % "4.2.1.RELEASE" % "test",
   "ch.qos.logback" % "logback-classic" % "1.1.3",
-  "org.hsqldb" % "hsqldb" % "2.3.3"
+  "org.hsqldb" % "hsqldb" % "2.3.3",
+  "mysql" % "mysql-connector-java" % "5.1.36"
 )
